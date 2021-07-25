@@ -12,3 +12,34 @@
     display: flex;
     justify-content: space-between;
 }
+
+.nav__link{
+    position: relative;
+}
+
+.nav__notification{
+    background-color: tomato;
+    width:20px;
+    height:20px;
+    font-weight: 400;
+    font-size: 14px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    bottom:9px;
+    left:13px;
+}
+
+.nav__dot{
+    background-color: tomato;
+    width:6px;
+    height:6px;
+    border-radius:3px;
+    display:flex;
+    position:absolute;
+    bottom:18px;
+    left:20px;
+}
