@@ -7,7 +7,7 @@
 }
 
 .friends-names-display i{
-    color:rgba(0,0,0,0.3)
+    color:var(--sub-font-color)
 }
 
 .friends-screen{
@@ -17,7 +17,7 @@
 .friends-screen__channel{
     margin-top:7px;
     padding-top:10px;
-    border-top: 1px solid rgba(0,0,0,0.2);
+    border-top: var(--border-line);
 }
 
 .friends-screen__channel-header{
@@ -28,6 +28,6 @@
 
 .friends-screen__channel-header--opa,
 .user-component__column--opa{
-    color:rgba(0,0,0,0.3)
+    color:var(--sub-font-color)
 }
 

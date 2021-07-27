@@ -1,0 +1,38 @@
+.find-icons{
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.find-icons__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-icons__icon i{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.find-icons__icon span{
+    text-align: center;
+}
+
+.recommended-friends{
+    border-top: var(--border-line);
+    border-bottom: var(--border-line);
+    margin-top: 20px;
+    padding:15px 0px;
+}
+
+.recommended-friends__title span{
+    color:var(--sub-font-color);
+    font-size:15px;
+}
+
+.recommended-friends__content{
+    padding: 100px 0px;
+    text-align: center;
+    color:var(--sub-font-color);
+}
