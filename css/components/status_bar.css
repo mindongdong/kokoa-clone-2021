@@ -12,6 +12,7 @@
     width:33%;
 }
 
+
 .status_bar__column:first-child span{
     margin-right:5px;
 }
@@ -20,6 +21,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    font-weight: 700;
 }
 
 .status_bar__column:last-child{
