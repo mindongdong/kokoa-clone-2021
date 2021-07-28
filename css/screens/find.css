@@ -45,23 +45,29 @@
 }
 
 .open-chat__header h4{
+    font-size: 15px;
     opacity: 0.7;;
 }
 .open-chat__header span{
+    font-size: 13px;
     color:var(--sub-font-color);
 }
 
 .open-post {
-    padding-top:20px;
+    padding-top:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .open-post__column h2{
-    font-size:15px;
+    font-size:14px;
     margin-bottom: 6px;
 }
 
 .open-post__column h3{
-    font-size:14px;
+    font-size:13px;
     color:var(--sub-font-color);
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -80,7 +86,7 @@
 }
 
 .open-post__count{
-    font-size: 14px;
+    font-size: 12px;
     color: var(--sub-font-color);
 }
 
@@ -93,5 +99,37 @@
 
 .open-post__status{
     color:#ffb0e0;
-    font-size:14px;
+    font-size:12px;
 }
+
+.open-post__photo{
+    position: relative;
+    right:10px;
+}
+
+.open-post__photo img{
+    width:80px;
+    height:80px;
+    border-radius: 15px;
+}
+
+.open-post__heart-count{
+    position:absolute;
+    left:25px;
+    bottom:10px;
+    width: 45px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color:white;
+    font-size: 10px;
+}
+
+.open-post__heart-count i{
+    margin-right: 4px;
+}
+
