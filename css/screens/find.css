@@ -1,24 +1,3 @@
-.find-icons{
-    margin-top: 15px;
-    display:flex;
-    justify-content: space-between;
-}
-
-.find-icons__icon{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.find-icons__icon i{
-    font-size: 30px;
-    margin-bottom: 15px;
-}
-
-.find-icons__icon span{
-    text-align: center;
-}
-
 .recommended-friends{
     border-top: var(--border-line);
     border-bottom: var(--border-line);
@@ -132,4 +111,3 @@
 .open-post__heart-count i{
     margin-right: 4px;
 }
-

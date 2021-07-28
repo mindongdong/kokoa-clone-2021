@@ -1,0 +1,47 @@
+.dot-location{
+    left:110px;
+}
+
+.user-component__subtitle--flex{
+    display: flex;
+}
+
+.exclamation-mark{
+    margin-left: 10px;
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    border: 1px solid tomato;
+    color:tomato;
+    text-align: center;
+    font-size: 14px;
+}
+
+.suggestions{
+    margin-top: 110px;
+    border-top:var(--border-line);
+    padding-top: 20px;
+}
+
+.suggestions__icons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggestions__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.suggestions__icon img{
+    width:50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.suggestions__icon span{
+    color:var(--sub-font-color);
+}
