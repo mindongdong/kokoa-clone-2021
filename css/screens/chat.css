@@ -38,7 +38,7 @@
 
 .messege {
     width: 100%;
-    margin: 40px 0px;
+    margin-top: 30px;
     display:flex;
 }
 
@@ -70,4 +70,20 @@
     border-radius: 15px;
     border-top-left-radius: 0px;
     margin-right: 5px;
+}
+
+.messege--own{
+    flex-direction:row-reverse;
+}
+
+.messege__text--own{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0px;
+    order:1;
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+.messege__time--own{
+    order:0;
 }
