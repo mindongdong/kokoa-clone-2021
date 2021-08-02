@@ -18,3 +18,15 @@
 .screen-header__icon span:nth-child(2){
     position: relative;
 }
+
+@keyframes spinCog {
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+.screen-header__icon .fa-cog:hover{
+    animation: spinCog 0.7s linear infinite;
+}
