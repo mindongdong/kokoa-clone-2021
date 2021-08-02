@@ -36,35 +36,35 @@
     font-size: 12px;
 }
 
-.messege {
+.message {
     width: 100%;
     margin-top: 30px;
     display:flex;
 }
 
-.messege__avatar{
+.message__avatar{
     width: 50px;
     height: 50px;
     border-radius: 40%;
     margin-right: 10px;
 }
 
-.messege__author,
-.messege__time{
+.message__author,
+.message__time{
     opacity: 0.7;
     font-size: 12px;
 }
 
-.messege__author{
+.message__author{
     font-size: 15px;
 }
-.messege__info{
+.message__info{
     margin-top: 5px;
     display: flex;
     align-items: flex-end;
 }
 
-.messege__text{
+.message__text{
     background-color: white;
     padding:10px;
     border-radius: 15px;
@@ -72,11 +72,12 @@
     margin-right: 5px;
 }
 
-.messege--own{
+.message--own{
     flex-direction:row-reverse;
 }
 
-.messege__text--own{
+.message__text--own{
+    background-color: var(--yellow);
     border-top-left-radius: 15px;
     border-top-right-radius: 0px;
     order:1;
@@ -84,6 +85,54 @@
     margin-left: 5px;
 }
 
-.messege__time--own{
+.message__time--own{
     order:0;
+}
+
+.reply{
+    padding:10px 5px;
+    background-color: white;
+    position: fixed;
+    bottom:0px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.reply__column{
+    display: flex;
+    align-items: center;
+}
+
+.reply__column:first-child{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.reply__column:last-child{
+    width: 90%;
+}
+
+.reply__input{
+    width: 100%;
+    padding:10px;
+    border-radius: 20px;
+    border:var(--border-line);
+}
+
+.reply__column:last-child > i,
+.reply__column button{
+    position: absolute;
+    right: 60px;
+}
+
+.reply__column button{
+    right: 10px;
+    background-color: var(--yellow);
+    padding: 8px;
+    border-radius: 50%;
+    border: none;
 }
