@@ -1,3 +1,3 @@
-# KoKoa Clone 2021 Update
+# KoKoa Clone 2021 
 
-HTML & CSS are so much fun !
+HTML과 CSS 연습 클론코딩
